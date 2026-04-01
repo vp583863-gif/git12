@@ -1,10 +1,10 @@
 name: github example
 on: 
-  push: 
-      branches: [main]
-  jobs:
-     demo:
-       runs-on: ubuntu-latest
-      steps:
-        - name: checkout respositiry
-          run:
+ push: 
+  branches: [main]
+jobs:
+  demo:
+   runs-on: ubuntu-latest
+   steps:
+    - name: checkout respositiry
+      run: echo "test.java"
